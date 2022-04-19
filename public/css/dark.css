@@ -1,0 +1,22 @@
+:root {
+  --darkBgColor: #0B0E3D;
+  --darkMainTextColor: #FFFFFF;
+  --darkCountColor: #1C2363;
+}
+body.dark {
+  background: var(--darkBgColor);
+}
+.dark .torii {
+  background: url('../images/bg_dark.png') no-repeat bottom;
+  background-size: 100% auto;
+}
+.dark .chance-cont h3 {
+  color: var(--darkCountColor);
+}
+.dark .score_cont h3 {
+  color: var(--darkCountColor);
+}
+.dark .game_over_text {
+  color: var(--darkCountColor);
+  background: #EFEFEF;
+}
